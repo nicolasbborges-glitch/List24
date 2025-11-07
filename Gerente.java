@@ -11,7 +11,6 @@ public class Gerente extends Funcionario {
         this.departamento = departamento;
     }
 
-    @Override
     public double calcularSalario() {
         return getSalarioBase() * 1.20;
     }
@@ -20,3 +19,4 @@ public class Gerente extends Funcionario {
         System.out.println("Gerenciando o departamento: " + departamento);
     }
 }
+
